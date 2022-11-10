@@ -25,7 +25,7 @@ public class Main {
         float sum = 0;
         for (Employee i : employee) {
             if (i == null) {
-                break;
+                continue;
             }
             sum += i.salary;
         }
