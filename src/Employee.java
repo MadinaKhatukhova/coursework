@@ -2,7 +2,6 @@ import java.util.Objects;
 
 public class Employee {
     String firstName;
-
     String middleName;
     String lastName;
     String fullName;
@@ -20,38 +19,31 @@ public class Employee {
         this.salary = salary;
         this.id = ++counter;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Employee)) return false;
         Employee employee = (Employee) o;
-        return getDepartment() == employee.getDepartment() && Float.compare(employee.getSalary(), getSalary()) == 0 && getId() == employee.getId() && Objects.equals(getFirstName(), employee.getFirstName()) && Objects.equals(middleName, employee.middleName) && Objects.equals(lastName, employee.lastName) && Objects.equals(fullName, employee.fullName);
+        return getDepartment() == employee.getDepartment() && Float.compare(employee.getSalary(), getSalary()) == 0 && getId() == employee.getId() && Objects.equals(firstName, employee.firstName) && Objects.equals(middleName, employee.middleName) && Objects.equals(lastName, employee.lastName) && Objects.equals(getFullName(), employee.getFullName());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getFirstName(), middleName, lastName, fullName, getDepartment(), getSalary(), getId());
+        return Objects.hash(firstName, middleName, lastName, getFullName(), getDepartment(), getSalary(), getId());
     }
 
     @Override
     public String toString() {
 
-
-        return "Employee{" +
-                "firstName='" + firstName + '\'' +
-                ", middleName='" + middleName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", fullName='" + fullName + '\'' +
-                ", department=" + department +
-                ", salary=" + salary +
-                ", id=" + id +
-                '}';
-
-
+        return "Сотрудник №"  + id + '\n' +
+                "ФИО: " + fullName + '\n' +
+                "Отдел: " + department + '\n' +
+                "Зарплата: " + salary + '\n';
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getFullName() {
+        return fullName;
     }
 
     public int getDepartment() {
