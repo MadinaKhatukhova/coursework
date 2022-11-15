@@ -3,19 +3,6 @@ import java.util.Objects;
 public class Employee {
     String firstName;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
-        return department == employee.department && Float.compare(employee.salary, salary) == 0 && id == employee.id && firstName.equals(employee.firstName) && middleName.equals(employee.middleName) && lastName.equals(employee.lastName) && fullName.equals(employee.fullName);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(firstName, middleName, lastName, fullName, department, salary, id);
-    }
-
     String middleName;
     String lastName;
     String fullName;
@@ -32,6 +19,19 @@ public class Employee {
         this.department = department;
         this.salary = salary;
         this.id = ++counter;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee)) return false;
+        Employee employee = (Employee) o;
+        return getDepartment() == employee.getDepartment() && Float.compare(employee.getSalary(), getSalary()) == 0 && getId() == employee.getId() && Objects.equals(getFirstName(), employee.getFirstName()) && Objects.equals(middleName, employee.middleName) && Objects.equals(lastName, employee.lastName) && Objects.equals(fullName, employee.fullName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getFirstName(), middleName, lastName, fullName, getDepartment(), getSalary(), getId());
     }
 
     @Override

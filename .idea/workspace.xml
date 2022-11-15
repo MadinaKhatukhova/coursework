@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ce8407a-d677-403b-9575-19913463a36e" name="Changes" comment="1_1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/course work/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/course work/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-    </list>
+    <list default="true" id="3ce8407a-d677-403b-9575-19913463a36e" name="Changes" comment="Курсовая" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667977240389</updated>
       <workItem from="1667977249324" duration="6895000" />
-      <workItem from="1668525666019" duration="2281000" />
+      <workItem from="1668525666019" duration="2634000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1667977647114</created>
@@ -93,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668526886488</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Курсовая">
+      <created>1668528250623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668528250623</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="1_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1_1" />
+    <MESSAGE value="Курсовая" />
+    <option name="LAST_COMMIT_MESSAGE" value="Курсовая" />
   </component>
 </project>
