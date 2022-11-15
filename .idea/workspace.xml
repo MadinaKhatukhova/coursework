@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ce8407a-d677-403b-9575-19913463a36e" name="Changes" comment="Курсовая">
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-    </list>
+    <list default="true" id="3ce8407a-d677-403b-9575-19913463a36e" name="Changes" comment="Курсовая" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667977240389</updated>
       <workItem from="1667977249324" duration="6895000" />
-      <workItem from="1668525666019" duration="2966000" />
+      <workItem from="1668525666019" duration="3281000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1667977647114</created>
@@ -104,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668528641677</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Курсовая">
+      <created>1668528820761</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668528820761</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Курсовая">
+      <created>1668529106304</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668529106304</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
