@@ -25,7 +25,7 @@ public class Employee {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Employee employee = (Employee) o;
-        return department == employee.department && Float.compare(employee.salary, salary) == 0 && id == employee.id && firstName.equals(employee.firstName) && middleName.equals(employee.middleName) && lastName.equals(employee.lastName) && fullName.equals(employee.fullName);
+        return department == employee.department && Float.compare(employee.salary, salary) == 0 && id == employee.id && Objects.equals(firstName, employee.firstName) && Objects.equals(middleName, employee.middleName) && Objects.equals(lastName, employee.lastName) && Objects.equals(fullName, employee.fullName);
     }
 
     @Override
@@ -46,6 +46,8 @@ public class Employee {
                 ", salary=" + salary +
                 ", id=" + id +
                 '}';
+
+
     }
 
     public String getFirstName() {
